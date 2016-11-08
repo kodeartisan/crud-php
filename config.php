@@ -4,7 +4,7 @@
 $host = "localhost";
 $username = "root";
 $password = "root";
-$database = "crud";
+$database = "crud" ;
 
 $mysqli = mysqli_connect($host,
                         $username,

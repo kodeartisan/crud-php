@@ -32,7 +32,7 @@ $results = mysqli_query($mysqli, "SELECT * FROM users ORDER BY id DESC");
                                 <td><?php echo $res['id'];  ?></td>
                                   <td><?php echo $res['nama'];  ?></td>
                                     <td><?php echo $res['alamat'];  ?></td>
-                                      <td><?php echo $res['umur'];  ?></td>
+                                      <td><?php echo $res['umur'] ;  ?></td>
                                       <td>
                                         <a href="edit.php?id=<?php echo $res[id] ?>">Edit</a>
                                         <a href="delete.php?id=<?php echo $res[id] ?>">Delete</a>    

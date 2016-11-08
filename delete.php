@@ -8,6 +8,6 @@ $id = $_GET['id'];
 mysqli_query($mysqli, "DELETE FROM users WHERE id=$id");
 
 //KALO UDAH DELETE BALIK KE INDEX.PHP
-header("Location:index.php");
+header("Location:index.php") ;
 
  ?>
